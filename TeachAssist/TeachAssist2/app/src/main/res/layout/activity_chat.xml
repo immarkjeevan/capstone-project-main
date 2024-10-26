@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context=".ChatActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/TeachAssistGreen"
+        android:id="@+id/chatHeader">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_alignParentStart="true"
+            />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView"
+        android:padding="10dp"
+        android:layout_above="@+id/bottomLayout"
+        android:layout_below="@+id/chatHeader"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottomLayout"
+        android:padding="8dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/messageEditText"
+            android:layout_centerInParent="true"
+            android:hint="Enter your message here"
+            android:padding="16dp"
+            android:background="@drawable/rounded_corner"
+            android:layout_toLeftOf="@id/sendfileButton"/>
+
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="60dp"
+            android:id="@+id/sendfileButton"
+            android:layout_toLeftOf="@id/sendButton"
+            android:layout_centerInParent="true"
+            android:padding="8dp"
+            android:src="@drawable/file_attachment"
+            android:background="?attr/selectableItemBackgroundBorderless"/>
+
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/sendButton"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:padding="8dp"
+            android:src="@drawable/baseline_send_24"
+            android:background="?attr/selectableItemBackgroundBorderless"/>
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

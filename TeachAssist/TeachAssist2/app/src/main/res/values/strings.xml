@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TeachAssist</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="write_here">Write here....</string>
+    <string name="todo">TODO</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="main_desc">Hello! I\'m TeachAssist, a language model developed by Students of TIP Manila</string>
+    <string name="desc">I was trained on a massive dataset of text using a machine learning technique called the transformer architecture. This enables me to understand and generate natural language responses to a wide range of questions and topics.</string>
+</resources>

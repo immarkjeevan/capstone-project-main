@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "722404279499",
+    "project_id": "capstone-teachassist",
+    "storage_bucket": "capstone-teachassist.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722404279499:android:ff700b0afdf0e76d47c74e",
+        "android_client_info": {
+          "package_name": "com.example.teachassist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722404279499-cefphb6bl4sbk438ra7ffi4rhse30c6l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpXMmnqJbTT_g6yAJSxIc7WXvX4siKkAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722404279499-cefphb6bl4sbk438ra7ffi4rhse30c6l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
